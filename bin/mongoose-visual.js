@@ -10,7 +10,7 @@
  **/
 
 // main lib
-
+require("wohlig-framework-core")
 require("@babel/register")({
     presets: ["@babel/preset-env"],
     plugins: [
