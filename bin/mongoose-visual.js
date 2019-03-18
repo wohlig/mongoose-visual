@@ -10,7 +10,7 @@
  **/
 
 // main lib
-require("wohlig-framework-core")
+
 require("@babel/register")({
     presets: ["@babel/preset-env"],
     plugins: [
@@ -18,7 +18,7 @@ require("@babel/register")({
         "@babel/plugin-transform-async-to-generator"
     ]
 })
-
+require("wohlig-framework-core")
 var visual = require('../lib/mongoose-visual');
 
 // process
